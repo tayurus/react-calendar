@@ -1,0 +1,18 @@
+table{
+    border: 1px solid #ccc;
+}
+
+th:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+td:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: lime;
+}
+
+.clickedDay{
+    background-color: aqua;
+}

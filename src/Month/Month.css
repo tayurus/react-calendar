@@ -1,0 +1,21 @@
+.month{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.month__prev{
+    height: 30px;
+    width: 30px;
+    background: url("img/arrow.png") no-repeat center / contain;
+    cursor: pointer;
+}
+
+.month__next{
+    height: 30px;
+    width: 30px;
+    transform: rotate(180deg);
+    background: url("img/arrow.png") no-repeat center / contain;
+    cursor: pointer;
+}
